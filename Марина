@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+     <div class="container"> 
+	      <a class="header-email" href="Mezhenskaya.m@gmail.com"> Mezhenskaya.m@gmail.com </a>
+          <a class="header-phone" href="tel:+380954158752">+38 095 415 87 52 </a>
+	 </div>
+    </header>
+
+    <section class="hero-image">
+     <div class="container"> 
+	 <h1 class="heading">Меженская Марина</h1>
+      <p>Junior верстальщик</p>
+	  </div>
+    </section>
+
+    <section class="intro">
+     <div class="container">
+	 <h2 class="subheading">Давайте познакомимся</h2>
+	       <figure class="user-image">
+               <img src="files/user.jpg" width="529" height="611" alt="Фотография Марины">
+           </figure>
+      <h3> Всем пламенный Hello! Добро пожаловать на мой сайт. Ещё совсем недавно я понятия не имела, 
+	  кто такой верстальщик, и кто все эти люди в сфере IT и чем они занимаются. Мой путь начался с онлайн обучения в "Nix Solutions". В 
+	  рамках данного обучения я прошла интерактивные курсы по HTML и CSS.<br>
+	  Немного ниже Вы сможете увидеть моего инструктора, рыжий пушистик по кличке Кекс, который не позволял
+	  мне расслабиться и следил за моими успехами.</h3>
+      <p>Меня зовут Марина, мне 26 лет. Начинаю свой путь в IT с QA. Данная деятельность очень напоминает работу детектива,
+	  так вот я будущий Шерлок, и ни один баг не останется не замеченым.  ... </p>
+      <h3>На данном этапе могу быть Вам полезной в создании сайта. Как личного так и для Вашей компании. </h3>
+      <p>Быстро. Четко. Лаконично.<br>
+	  P.S.  Дизайн Ваш </p> 
+	  </div>
+	  
+	  <div class="skills">
+         <h2> Мои навыки </h2>
+         <dl class="skills-list">
+         <dt class="skill-html">HTML</dt>
+         <dd class="level"><div style="width: 60%;">60%</div></dd>
+         <dt class="skill-css">CSS</dt>
+         <dd class="level"><div style="width: 40%;">40%</div></dd>
+         </dl>
+      </div>
+	
+    </section>
+
+    <section class="portfolio">
+     <div class="container">
+	 <h2 class="subheading">Мои работы</h2>
+
+      
+	   
+      <h2>Мой первый сайт.</h2>
+	   <a class="button" href="source/project/index.html">Открыть страницу</a>
+	   <figure class="project-image">
+               <img src="files/project.jpg" width="928" height="536" alt="Кекс">
+           </figure>
+      <h3>Блог начинающего верстальщика</h3>
+      <p>Статический блог про обучение HTML и CSS.</p> 
+	  </div>
+    </section>
+
+    <footer class="page-footer">
+     <div class="container">
+	 <a class="footer-email" href="mailto:Mezhenskaya.m@gmail.com">Mezhenskaya.m@gmail.com</a>
+     <a class="footer-phone" href="tel:+380954158752">+38 095 415 87 52</a>
+	 </div>
+    </footer>
+  </body>
+</html>
